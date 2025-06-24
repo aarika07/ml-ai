@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": ["You're welcome!", "Glad to help!", "See you next time!"]
+    },
+    {
+      "tag": "gnarly",
+      "patterns": ["boba tea", "tesla", "fried chicken","party in the hollywood hills"],
+      "responses": ["gnarly"]
+    },
+    {
+      "tag": "descriptive_essay",
+      "patterns": ["Write a descriptive essay", "Help with descriptive writing", "Describe something in detail"],
+      "responses": [
+        "Descriptive essays create vivid images. Here's a structure:\n\n1. Introduction – Brief overview of the topic.\n2. Body – Use sensory details (sight, sound, smell, touch, taste).\n3. Conclusion – Emotional reflection or final image."
+      ]
+    },
+    {
+      "tag": "narrative_essay",
+      "patterns": ["Write a narrative essay", "Help with storytelling essay", "Can you help me tell a story?"],
+      "responses": [
+        "Narrative essays follow a story arc. Try this:\n\n1. Introduction – Set the scene and introduce characters.\n2. Body – Describe events in order.\n3. Climax – The turning point.\n4. Conclusion – What you learned or how it changed you."
+      ]
+    },
+    {
+      "tag": "expository_essay",
+      "patterns": ["Write an expository essay", "Help me explain a topic", "How do I write an informative essay?"],
+      "responses": [
+        "Expository essays explain facts. Try this:\n\n1. Introduction – Present your thesis.\n2. Body – Support with evidence.\n3. Conclusion – Summarize key ideas."
+      ]
+    },
+    {
+      "tag": "persuasive_essay",
+      "patterns": ["Write a persuasive essay", "Convince someone with writing", "Help me argue a point"],
+      "responses": [
+        "Persuasive essays argue a point. Use this:\n\n1. Introduction – State your position.\n2. Body – Support with examples.\n3. Counter – Address opposing views.\n4. Conclusion – Reinforce and call to action."
+      ]
+    },
+    {
+      "tag": "compare_contrast_essay",
+      "patterns": ["Compare two things", "Write a compare and contrast essay", "Help with similarities and differences"],
+      "responses": [
+        "Compare and contrast essays structure:\n\n1. Introduction – Present both topics.\n2. Body – Discuss similarities and differences.\n3. Conclusion – Summarize and give insight."
+      ]
+    }
+  ]
+}
